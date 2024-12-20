@@ -66,6 +66,7 @@ section{
     color: rgb(25, 88, 53);
     font-family: idroid ;
     padding: 10px;
+    font-size: 1em;
 }
 
 .titulo-03{
@@ -111,9 +112,15 @@ picture{
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
     margin: auto;
-   
+    
+       
 }
 
+img{
+    width: 100%;
+    height: auto;
+    display: block; /* Remove espaços extras abaixo da imagem */
+}
 
 nav{
     background-color: transparent;
